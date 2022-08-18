@@ -11,4 +11,4 @@ def gallery(request):
 
     }
     
-    return render(request, "public/gallery/gallery.html", context)
+    return render(request, "public/index.html", context)
